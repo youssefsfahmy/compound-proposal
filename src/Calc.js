@@ -95,28 +95,28 @@ export default function Calc() {
         marginTop: "23vh",
       }}
     >
-      amount to save
+      Amount to Save
       <input
         onChange={handleInput}
         name="num1"
         value={input.num1}
         type="number"
       ></input>
-      monthly deposit
+      Monthly Deposit
       <input
         onChange={handleInput}
         name="num2"
         value={input.num2}
         type="number"
       ></input>{" "}
-      starting cap
+      Starting Cap
       <input
         onChange={handleInput}
         name="num3"
         value={input.num3}
         type="number"
       ></input>{" "}
-      yearly interest
+      Yearly Interest
       <input
         onChange={handleInput}
         name="num4"
