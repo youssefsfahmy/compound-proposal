@@ -78,7 +78,7 @@ export default function Calc() {
     }
   };
   const suma = function () {
-    console.log("clicked");
+    console.log("clickeddddddddddd");
     const { num1, num2, num3, num4 } = input;
     console.log(num1, num2, num3, num4);
     const [a, b] = calculator(num1, num2, num3, num4);
